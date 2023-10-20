@@ -4,7 +4,8 @@
 # ie: passing Atkinson as the parameter would return nosniktA
 def reverseName(myName):
   # Write your code here
-  
+  hi = "hello"
+  print(hi[::-1])
   result = myName
   return result
 
@@ -12,6 +13,7 @@ def reverseName(myName):
 # ie: passing 16 as the parameter would return 4.0
 def rootAge(myAge):
   # Wrie your code here
-  
+  import math 
+  math.sqrt(myAge)
   result = myAge
   return result
